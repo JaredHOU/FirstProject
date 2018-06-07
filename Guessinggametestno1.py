@@ -1,4 +1,7 @@
-
+'''
+This is Jareds famous first program before he became
+almost as good of a programmer as his dad
+'''
 global number1
 global number2
 #print(random.randint(minimum_number, maximum_number))
