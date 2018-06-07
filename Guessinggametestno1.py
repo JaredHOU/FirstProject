@@ -69,12 +69,12 @@ def pick_random():
 
  #Quits game.
 
-def exit_game():
-     while True:
-         print("Type Q to quit")
-         n = input("Enter text: ")
-         if n == 'Q':
-            break
+# def exit_game():
+#      while True:
+#          print("Type Q to quit")
+#          n = input("Enter text: ")
+#          if n == 'Q':
+#             break
 
 
 print_banner("Welcome to Jared's Guessing Game")
@@ -86,5 +86,3 @@ game_rules()
 pick_random()
 
 print_banner("Thanks for playing!")
-
-exit_game()
